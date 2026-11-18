@@ -8,9 +8,9 @@ const MISSIONS = [
         id: "muscify",
         code: "MSN-01",
         title: "Muscify",
-        category: "Full-stack",
+        category: "Website",
         tag: "FEATURED",
-        brief: "A music app and my main portfolio project.(YT-DLP-EXEC rate limited my website so therefore its kinda broken)",
+        brief: "A music app and my main portfolio project.",
         stack: [],
         link: "https://musicify-tan.vercel.app",
     },
@@ -18,7 +18,7 @@ const MISSIONS = [
         id: "learning-quest",
         code: "MSN-02",
         title: "Learning Quest",
-        category: "Full-stack",
+        category: "Website",
         tag: "GROUP · C270",
         brief: "A quiz and learning platform built with my team for my devops course, I was the team leader making everytime works but I mainly did the quiz page and deployment with google cloud",
         stack: ["Full-stack", "Docker", "Google Cloud"],
@@ -28,7 +28,7 @@ const MISSIONS = [
         id: "pathway",
         code: "MSN-03",
         title: "Pathway",
-        category: "Full-stack",
+        category: "Website",
         tag: "CAREER GUIDANCE",
         brief: "A career guidance website with secure sign-in.",
         stack: ["React", "Express", "MySQL", "JWT"],
@@ -38,7 +38,7 @@ const MISSIONS = [
         id: "activity-tracker",
         code: "MSN-04",
         title: "Runnova",
-        category: "Full-stack",
+        category: "Website",
         tag: "STRAVA-INSPIRED",
         brief: "A Strava-inspired tracker for logging and viewing activities.",
         stack: ["Express", "EJS", "Bootstrap 5"],
@@ -48,7 +48,7 @@ const MISSIONS = [
         id: "zoom-clone",
         code: "MSN-05",
         title: "Zoom Clone",
-        category: "Real-time",
+        category: "Real-Time Communication & Media Streaming",
         tag: "LIVE VIDEO",
         brief: "A video meeting app with live connections between users.",
         stack: ["React", "WebSockets", "webRTC"],
@@ -58,7 +58,7 @@ const MISSIONS = [
         id: "mediasoup",
         code: "MSN-06",
         title: "Mediasoup Video Call",
-        category: "Real-time",
+        category: "Real-Time Communication & Media Streaming",
         tag: "SFU",
         brief: "A video call app built on the mediasoup media server.",
         stack: ["React", "Node.js", "Express", "mediasoup"],
@@ -68,7 +68,7 @@ const MISSIONS = [
         id: "Musicify(Mobile)",
         code: "MSN-07",
         title: "Musicify(Mobile)",
-        category: "Mobile App",
+        category: "Mobile Apps",
         tag: "MUSIC",
         brief: "I made this app based on my web version of musicfiy",
         stack: ["React Native", "Node.js", "Express"],
@@ -76,7 +76,7 @@ const MISSIONS = [
     },
 ]
 
-const FILTERS = ["All", "Full-stack", "Real-time","Mobile App"]
+const FILTERS = ["All", "Website", "Real-Time Communication & Media Streaming","Mobile Apps"]
 
 function Missions() {
     const rootRef = useRef(null)

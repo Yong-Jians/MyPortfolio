@@ -36,7 +36,7 @@ function Contact() {
                         <p className="links-title">Ways to reach me!</p>
                         <a href="mailto:animeheso@gmail.comx" className="link-btn">animeheso@gmail.com</a>
                         <a href="https://www.linkedin.com/in/lim-yong-jian-566985396/" target="_blank" rel="noreferrer" className="link-btn">LinkedIn</a>
-                        <a href="https://github.com/animeheso-ux" target="_blank" rel="noreferrer" className="link-btn">Github</a>
+                        <a href="https://github.com/Yong-Jians" target="_blank" rel="noreferrer" className="link-btn">Github</a>
                     </div>
                 </div>
 
